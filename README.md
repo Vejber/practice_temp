@@ -10,6 +10,24 @@
 6. Базовая работа с локальным репозиторием
 7. Что такое ветки и для чего они нужны при работе с системой контроля версий.
 8. Базовая работа с ветками в git.
+## How to create a new branch
+```
+git branch branch_name
+```
+## How to delete a branch
+```
+git branch -d branch_name
+```
+
+## How to merge branches
+```
+git merge branch_name
+```
+
+## How to rebase a current branch to the last commit of another branch
+```
+git rebase another_branch_name
+```
 9. Что такое удаленный репозиторий и для чего он нужен
 10. Базовая работа с удаленными репозиториями GitHub
 11. Как строится и для чего нужна совместная работа в системах контроля версий
